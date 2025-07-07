@@ -1,7 +1,7 @@
 # <h1 align="center">Hola soy Facundo Gandini</h1>
 <h3 align="center">Soy un argentino estudiando en Coder House</h3>
 
-- Estoy desarrolndo una pagina web **Alta Frecuencia*
+- Estoy desarrolndo una pagina web **Alta Frecuencia**
 
 - 🌱 Actualmente estoy estudiando **JavaScript**
 

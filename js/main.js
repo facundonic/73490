@@ -13,7 +13,7 @@ products.forEach((prod) => {
     content.innerHTML = `
     <img src="${prod.img}">
     <h4>${prod.name}</h4>
-    <p class="price">S/${prod.price}</p>
+    <p class="price">$${prod.price}</p>
     `;
 
     shopContent.append(content);

@@ -27,11 +27,11 @@ const paintCart = () => {
         cartCont.innerHTML = `
         <img src="${prod.img}">
         <h5>${prod.name}</h5>
-        <p>S/${prod.price}</p>
+        <p>$${prod.price}</p>
         <span class="minus"> - </span>
         <p>Cantidad: ${prod.quantity}</p>
         <span class="plus"> + </span>
-        <p>Total: S/${prod.quantity * prod.price}</p>
+        <p>Total: $${prod.quantity * prod.price}</p>
         <span class="delete-product bx bx-trash bx-tada-hover">  </span>
         `;
 
@@ -64,7 +64,7 @@ const paintCart = () => {
 
     const totalBuying = document.createElement("div");
     totalBuying.className = "total-content";
-    totalBuying.innerHTML = `Total a pagar: S/${total}`;
+    totalBuying.innerHTML = `Total a pagar: $${total}`;
     modalContainer.append(totalBuying);
 };
 
